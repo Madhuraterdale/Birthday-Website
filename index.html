@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Mumma ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="hero">
+
+<h1>Happy Birthday Mumma ❤️</h1>
+<p class="tagline">
+    ✨ Celebrating the Queen of My Heart ✨
+</p>
+
+<p class="loveLine">
+    💌 Made with endless love just for you...
+</p>
+<div class="sparkles">
+    💖 
+</div>
+
+<p>You are the most beautiful blessing of my life.</p>
+
+<button id="startBtn">
+Open My Surprise 🎁
+</button>
+
+<div class="footerText">
+    ❤️ With Love, Your Daughter Madhura ❤️
+</div>
+</div>
+<section id="surpriseSection" class="hidden-section">
+
+    <div class="letter-card">
+
+        <h2>💌 Something From My Heart</h2>
+
+        <p><b>Dear Mumma...</b> </br>
+Before anything else,  I just want to tell you something from the bottom of my heart. This little website is my way of saying thank you.Thank you for every hug that made my worries disappear.Thank you for every sleepless night you spent taking care of me.
+Thank you for believing in me even when I doubted myself.Your love has always been my greatest strength, and your smile has always been my biggest motivation.
+Everything I am today is because of your endless sacrifices, patience, and unconditional love.
+You are my first teacher, my best friend, my biggest supporter, and my forever safe place.
+ No matter how old I grow, I'll always be your little daughter who loves you more than words can ever express.If I could choose my mother in every lifetime, I would choose you again and again.
+I hope this birthday fills your heart with as much happiness as you've filled mine throughout my life.
+
+
+
+            <br><br>
+
+            <strong>I love you more than words can ever express. ❤️</strong>
+        </p>
+
+        <button id="continueBtn">Continue ➜</button>
+
+    </div>
+
+</section>
+<section id="memorySection" class="hidden-section">
+
+    <div class="memory-card">
+
+        <h1>📸 Our Beautiful Memories</h1>
+
+        <p class="memoryText">
+
+            Every picture holds a story...
+
+            Every smile reminds me of your love...
+
+            Every memory reminds me how lucky I am
+            to call you my Mumma.
+
+            Here are some of my favourite moments
+            with the most beautiful woman in my life. ❤️
+
+        </p>
+
+        <button id="memoryBtn">
+            Open Our Memories 📷
+        </button>
+
+    </div>
+
+</section>
+
+<section id="memoryBookSection" class="hidden-section">
+
+    <div class="book">
+
+        <h1 class="bookTitle">
+            📖 Our Precious Memories ❤️
+        </h1>
+
+        <img id="memoryImage"
+             src="assets/images/photo1.jpg"
+             class="memoryPhoto">
+
+        <div class="memoryLetter">
+
+            <p id="memoryText">
+
+Dear Mumma,
+
+your love has always been the purest thing in my life. Whether it's waiting for me to come home, asking me a hundred times if I've eaten, making my favourite food without me asking, or silently praying for me every single day—you've always loved me in the most beautiful way.
+Your hugs have always healed the pain that no medicine ever could. Even your scoldings carried care, and today I understand that every word came from love.
+If one day I become even half the woman you are—kind, strong, patient, and full of love—I will consider myself truly blessed.
+
+I pray that God blesses you with good health, endless happiness, peaceful days, and all the love that you've spent your whole life giving to everyone else.
+
+You have spent your life making mine beautiful. I promise I'll spend mine trying to make you proud and filling your life with the happiness you deserve.
+
+
+I love you forever. ❤️
+
+            </p>
+
+        </div>
+
+        <button id="nextMemory">
+            📖 Turn the Page →
+        </button>
+
+    </div>
+
+</section>
+
+<section id="giftSection" class="hidden-section">
+
+    <h1 class="giftTitle">A Few Little Gifts For You 🎁 </h1>
+
+    <p class="giftSub">
+        ok so basically gifts are not actual gifts but my promise to do it....
+    </p>
+
+    <div class="giftContainer">
+
+        <div class="gift" onclick="openGift(1)">
+            🎁
+            <h3>Gift One</h3>
+        </div>
+
+        <div class="gift" onclick="openGift(2)">
+            🎀
+            <h3>Gift Two</h3>
+        </div>
+
+        <div class="gift" onclick="openGift(3)">
+            💝
+            <h3>Gift Three</h3>
+        </div>
+
+    </div>
+
+    <div id="giftMessage"></div>
+
+    <button id="giftNext">
+        Continue ➜
+    </button>
+
+</section>
+<section id="reasonSection" class="hidden-section">
+
+<div class="reasonCard">
+
+<h1>🌹 Reasons Why I Love You 🌹</h1>
+
+<div class="reasonCircle">
+
+<p id="reasonText">
+
+Click below ❤️
+
+</p>
+
+</div>
+
+<button id="nextReason">
+
+Next Reason ❤️
+
+</button>
+
+</div>
+
+</section>
+
+<section id="cakeSection" class="hidden-section">
+
+<div class="cakeContainer">
+
+<h1>🎂 Happy Birthday Mumma 🎂</h1>
+
+<div class="cake">
+
+🎂
+
+</div>
+
+<p>
+
+Make a wish...
+
+Then click below.
+
+</p>
+
+<button id="blowCandles">
+
+Blow the Candles 🕯️
+
+</button>
+
+</div>
+
+</section>
+
+<audio id="bgMusic" loop>
+    <source src="assets/music/birthday.mp3" type="audio/mpeg">
+</audio>
+<section id="finalSection" class="hidden-section">
+
+<div class="finalCard">
+
+    <h1>To My Forever Home, My Mumma </h1>
+    <p class="subtitle">Happy Birthday, Mumma 💖</p>
+
+    <div class="letter">
+        <p>
+            Aaj tuzha birthday aahe, pan gift mala milalay... because God chose <strong>you</strong> to be my Mumma.
+        </p>
+
+        <p>
+            Mala mahit nahi ki mi itki lucky kashi aahe, pan ek goshta nakkich mahit aahe...
+            if there's one person I can never imagine my life without, it's you.
+        </p>
+        <p>Everyone always says:</p>
+        <p class="quote">
+            "You are such a Mumma's girl."
+        </p>
+
+        <p>
+            And you know what?
+        </p>
+
+        <p class="highlight">
+            Yes, I love to be Mumma's girl.
+        </p>
+
+        <p>
+            In fact, that's the biggest compliment anyone can ever give me.
+            Because being <strong>your daughter</strong> is my favourite identity.
+        </p>
+
+        <p>
+            Mumma, mi kiti hi mothi zale tari jevha ghari yete tevha maze dole tulach shodat astat</p>
+
+        <p>
+            Tujhya <strong>"Kalji ghe"</strong> madhye mala complete world disata.
+        </p>
+
+        <p>
+            Tujhya <strong>"pohachlyavar Phone kar"</strong> madhye mala security diste.
+        </p>
+
+        <p class="quote">
+            People think these are just normal words...
+            <br><br>
+            But for me, they are Home.
+        </p>
+
+        <p>
+            Ajunhi kahi changla zhala ki saglyat pahila tula sangaych asta.
+            Ani kahi vait zhala ki pan saglyat pahili aathavan tujhich yete.
+        </p>
+
+        <p>
+            Because somehow...
+            you always make everything okay.
+        </p>
+
+        <p>
+            Tujhya mithit sagle problems khup chote vatayla lagtat.
+            Tujha haath dokyavar thevlas ki asa vatta ki sagla tension nighun gela.
+        </p>
+
+        <p class="quote">
+            How did God put so much love in one person's heart?
+        </p>
+
+        <p>
+            Because no matter how many mistakes I make,
+            how many times I get angry,
+            or how impossible I become...
+        </p>
+
+        <p class="highlight">
+            You never stop loving me.
+            <br>
+            Never.
+        </p>
+
+        <p>
+            Mumma, mala mahit aahe mi kadhi kadhi khup chidte,
+            attitude dakhavte,
+            busy hote...
+        </p>
+
+        <p>
+            Pan ratri jhopnyapoorvi mala he pan mahit asta ki udya divas mumma chya hug nech suru honar ahe...
+        </p>
+
+
+        <p>
+            Mala future chi bhiti nahi...
+        </p>
+
+        <p>
+            Pan ek goshtichi khup bhiti vatte...
+        </p>
+
+        <p class="quote">
+            A life where I can't come running to you.
+            <br><br>
+            A life where I can't hear you calling my name.
+            <br><br>
+            A life where I can't sit beside you after a long day and tell you every little thing.
+        </p>
+
+        <p>
+            Honestly...
+            I don't think I know how to live in that world.
+        </p>
+
+        <p class="highlight">
+            Tu fakta mazi Mumma nahis...
+            <br><br>
+            Tu maza confidence ahes.
+            <br><br>
+            Tu maza peace ahes.
+            <br><br>
+            Tu maza safe place ahes.
+            <br><br>
+            Tu maza biggest blessing ahes.
+        </p>
+
+        <p>
+            Thank you for loving me even when I wasn't easy to love.
+        </p>
+
+        <p>
+            Thank you for standing beside me in every  success and failure.
+        </p>
+
+        <p>
+            Thank you for making me believe that no matter what happens...
+        </p>
+
+        <p class="highlight">
+            "Mazi Mumma aahe na."
+    <br><br>
+            That's enough for me.
+        </p>
+
+        <p class="quote">
+            Happy Birthday, Mumma ❤️
+            <br><br>
+            I love you more than you'll ever know.
+        </p>
+
+        <p class="highlight">
+            Mi nehmich tuzhi choti mulgi rahnar.
+            <br>
+            
+        </p>
+<br><br>
+        <div class="signature">
+            With all my love ❤️
+            <br><br>
+            <span>Madhura</span>
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<script src="scripts.js "></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+</body>
+</html>
