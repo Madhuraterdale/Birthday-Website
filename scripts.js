@@ -46,7 +46,7 @@ const memories=[
 
 {
 
-image:"assets/images/photo1.jpg",
+image:"photo1.jpg",
 
 text:`Dear Mumma,
 
@@ -64,7 +64,7 @@ I love you forever. ❤️`
 
 {
 
-image:"assets/images/photo2.jpg",
+image:"photo2.jpg",
 
 text:`Dear Mumma,
 
@@ -84,7 +84,7 @@ You don't judge me for my mistakes or make me feel less because I couldn't do so
 
 {
 
-image:"assets/images/photo3.jpg",
+image:"photo3.jpg",
 
 text:`Dear Mumma,
 
@@ -104,7 +104,7 @@ If love had a face, it would look exactly like you❤️`
 
 {
 
-image:"assets/images/photo4.jpg",
+image:"photo4.jpg",
 
 text:`Dear Mumma,
 
